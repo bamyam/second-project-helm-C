@@ -12,6 +12,8 @@ spec:
     - protocol: TCP
       port: {{ $service.port }}
       targetPort: {{ $service.port }}
+      nodePort: {{ $service.nodeport }}
+  type: NodePort
 {{- end }}
 ---
 apiVersion: v1
