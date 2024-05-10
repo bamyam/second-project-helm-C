@@ -7,19 +7,19 @@ replicaCount: 1
 services:
   frontendapp:
     name: frontendapp
-    image: "bamyam/frontendappC" # Replace with your actual image name
+    image: "bamyam/frontendappc" # Replace with your actual image name
     tag: v2
     port: 3000
 
   productapp:
     name: productapp  
-    image: "bamyam/productappC" # Replace with your actual image name
+    image: "bamyam/productappc" # Replace with your actual image name
     tag: v2
     port: 8000
 
   userapp:
     name: userapp  
-    image: "bamyam/userappC" # Replace with your actual image name
+    image: "bamyam/userappc" # Replace with your actual image name
     tag: v2
     port: 8010
 
